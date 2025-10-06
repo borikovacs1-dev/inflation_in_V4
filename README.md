@@ -7,17 +7,20 @@ This is a README template describing the inflation analysis for Central-Eastern 
 ## Data: 
 Eusostat collects and assembles monthly inflation rates for all members of the European Union. This is the Harmonizes Index of Consumer Prices (HICP), which is a standardized measure of inflation across all member states.  It is an economic indicator that measures the change over time of the prices of consumer goods and services acquired by households.
 
-The datasets contain annual rates of change HICP indeces from 4 countries: Czechia, Hungary, Poland and Slovakia. 
+The datasets contain annual rates of change in HICP indeces from 4 countries: Czechia, Hungary, Poland and Slovakia.
 
 ![Description of image](images/eurostat_image.png)
 Data source: [Eurostat Database - HICP data](https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr/default/table?lang=en&category=prc.prc_hicp)
 
 There are 4 files provided in the data/raw folder: 
-
 * CZ_.csv
 * HUN_.csv
 * PL_.csv
 * SK_.csv
+
+Variables in each country file:
+* All-items HICP inflation
+* Core HICP inflation (overall index excluding energy, food, alcohol and tobacco)
 
 Combined data file in data folder: 
 * combined_inflation_data.csv
@@ -43,13 +46,14 @@ inflation_in_V4/
 │   ├── core_inflation_plot.png
 │   └── inflation_plot.png
 ├── environment.yml
+├── LICENSE
 ├── requirements.txt
 └── README.md
 
 ## Getting Started
-The analysis can be run by code/main.ipynb, which sets the working directory, saves the requirements.txt and runs the code for analysis.
+The entire analysis can be run by code/main.ipynb, which sets the working directory, saves the requirements.txt and runs the code for analysis.
 
-### Requirements
+## Requirements
 
 A step by step series of examples that tell you how to get a development/analysis env running
 
@@ -60,7 +64,7 @@ conda activate myenv
 ```
 
 
-### Main Dependencies
+## Main Dependencies
 
 - **Python** 3.12
 - **jupyter / ipykernel** – running notebooks
@@ -68,7 +72,7 @@ conda activate myenv
 - **numpy** – numerical computations
 - **matplotlib** – plotting and visualization
 
-### Standard Library Modules
+## Standard Library Modules
 
 - **os** – operating system interfaces  
 - **functools (reduce)** – higher-order functions and function tools
