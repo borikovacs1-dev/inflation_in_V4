@@ -2,7 +2,7 @@
 Date: 07.10.2025.
 
 ## Description of the project: 
-This is a README template describing the inflation analysis for Central-Eastern European (CEE) countries. The goal is to creat a reproducible project analysing inflation data. The main goal of the project is to be able to visualize and compare the evolution of inflation and core inflation in CEE countries between 2015 and 2025. 
+This is a README template describing the inflation analysis for Central-Eastern European (CEE) countries project. The goal is to creat a reproducible project analysing inflation data. This project visualizes and compares the evolution of inflation and core inflation in CEE countries between 2015 and 2025. 
 
 ## Data: 
 Eusostat collects and assembles monthly inflation rates for all members of the European Union. This is the Harmonizes Index of Consumer Prices (HICP), which is a standardized measure of inflation across all member states.  It is an economic indicator that measures the change over time of the prices of consumer goods and services acquired by households.
@@ -55,7 +55,7 @@ The entire analysis can be run by code/main.ipynb, which sets the working direct
 
 ## Requirements
 
-A step by step series of examples that tell you how to get a development/analysis env running
+A step by step series of examples that tell you how to get a development/analysis env running:
 
 In conda:
 ```
@@ -72,11 +72,7 @@ conda activate myenv
 - **numpy** – numerical computations
 - **matplotlib** – plotting and visualization
 
-## Standard Library Modules
-
-- **os** – operating system interfaces  
-- **functools (reduce)** – higher-order functions and function tools
-
 ## Author
 
-* **Borbala Kovacs**  [https://github.com/borikovacs1-dev](https://github.com/borikovacs1-dev); Kovacs_Borbala@student.ceu.edu 
+* **Borbala Kovacs**
+ [https://github.com/borikovacs1-dev](https://github.com/borikovacs1-dev); Kovacs_Borbala@student.ceu.edu 
