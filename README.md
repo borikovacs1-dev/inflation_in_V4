@@ -60,7 +60,7 @@ A step by step series of examples that tell you how to get a development/analysi
 In conda:
 ```
 conda env create -f environment.yml
-conda activate myenv
+conda activate mini_project_env
 ```
 
 
